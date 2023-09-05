@@ -1,6 +1,12 @@
 package p1;
 
 public class Fibonacci {
+    /**
+     * Calculates the nth Fibonacci number.
+     * 
+     * @param n The position of the Fibonacci number to calculate (must be non-negative).
+     * @return The nth Fibonacci number.
+     */
     public static int calculateFibonacci(int n) {
         if (n <= 0) {
             return 0;
@@ -12,7 +18,7 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        int n = 10; // Change this value to calculate a different term of the Fibonacci sequence
+        int n = 10; 
         int result = calculateFibonacci(n);
 
         System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
